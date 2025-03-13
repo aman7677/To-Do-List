@@ -1,0 +1,84 @@
+
+body {
+    background-color: rgb(146, 171, 171);
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    background-color: darkgray;
+    width: 90%;
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+  }
+  
+  .header {
+    font-size: 32px;
+    color: #0a080d;
+    margin-bottom: 16px;
+  }
+  
+  input[type="text"] {
+    width: calc(100% - 24px);
+    padding: 12px;
+    border: 2px solid #dd8383;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    font-size: 16px;
+  }
+  
+  button {
+    padding: 12px 24px;
+    background-color: rgb(235, 206, 170);
+    color: black;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.2s;
+  }
+  
+  button:hover {
+    background-color: rgb(202, 213, 162);
+  }
+  
+  .list-heading {
+    font-size: 24px;
+    text-align: left;
+    background-color: rgb(157, 199, 199);
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 12px;
+  }
+  
+  .list-container {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 250, 240);
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 8px;
+    font-size: 18px;
+  }
+  
+  .list-item button {
+    background-color: #ff6b6b;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-size: 14px;
+  }
+  
+  .list-item button:hover {
+    background-color: #ff4d4d;
+  }
+  
